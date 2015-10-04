@@ -1,0 +1,37 @@
+/* INFO VIEW STYLES */
+.logo-image-wrapper {
+    background-color: #fff;    
+}
+
+.logo-image {
+    background-image: url(../styles/images/logo.png);
+    background-repeat: no-repeat;
+    width: 319px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* DEMO VIEW STYLES */
+.demo .smallbuttons {
+  text-align: center;
+}
+
+.demo .smallbuttons .button {
+    margin-bottom: 4px;
+    margin-top: 4px;
+    width: 40%;
+}
+
+.km-tests:after,
+.km-tests:before {
+    content: "\e0f8";
+}
+
+/* RETINA DISPLAY STYLES */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .logo-image {
+        background-image: url(../styles/images/logo2x.png);
+        background-size: 100%;
+    }
+}

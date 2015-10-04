@@ -4,13 +4,83 @@
     <title></title>
     <meta charset="utf-8" />
     <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
 
     <script src="cordova.js"></script>
     <script src="kendo/js/jquery.min.js"></script>
     <script src="kendo/js/kendo.mobile.min.js"></script>
-    
+
+    <script src="scripts/demo.js"></script>
+    <script src="scripts/app.js"></script>
 </head>
 <body>
-    
+    <!--Home View-->
+    <div id="tabstrip-home"
+        data-role="view"
+        data-title="Plugin Info">
+        <header data-role="header">
+            <div data-role="navbar">
+                <span data-role="view-title" data-align="center"></span>
+                <a id="skin-change" data-role="button" data-align="left" data-click="app.changeSkin">Flat</a>
+            </div>
+        </header>
+
+        <div class="logo-image-wrapper">
+  	      <div class="logo-image"></div>            
+        </div>
+        <h3>Mapbox Plugin Demo</h3>
+        <p>
+            The Mapbox plugin allows you to embed a powerful native OpenGL powered Map in your app.
+        </p>
+        <p>
+            Custom plugins don't work in the simulator and the AppBuilder companion app,
+            so inside Telerik AppBuilder choose Run - Build - iOS/Android - App package.
+        </p>
+    </div>
+
+    <!--Demo View-->
+    <div id="tabstrip-demo"
+        data-role="view"
+        data-title="Plugin Demo"
+        data-model="app.demoService.viewModel">
+
+        <div class="demo">
+            <h3>Showing and hiding a map</h3>
+            <div class="smallbuttons">
+	            <button data-role="button" class="button" data-bind="click: showMap">Show</button>
+  	          <button data-role="button" class="button" data-bind="click: hideMap">Hide</button>
+	          </div>
+
+            <h3>Manipulating the map</h3>
+            <div class="smallbuttons">
+	            <button data-role="button" class="button" data-bind="click: addMarkers">Add markers</button>
+	            <button data-role="button" class="button" data-bind="click: addPolygon">Add polygon</button>
+              <br/>
+	            <button data-role="button" class="button" data-bind="click: getCenter">Get center</button>
+	            <button data-role="button" class="button" data-bind="click: setCenter">Set center</button>
+              <br/>
+	            <button data-role="button" class="button" data-bind="click: getZoomLevel">Get zoom</button>
+	            <button data-role="button" class="button" data-bind="click: setZoomLevel">Set zoom (10)</button>
+	          </div>
+			</div>
+    </div>
+
+    <!--Layout-->
+    <div data-role="layout" data-id="tabstrip-layout">
+        <!--Header-->
+        <div data-role="header">
+            <div data-role="navbar">
+                <span data-role="view-title"></span>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div data-role="footer">
+            <div data-role="tabstrip">
+                <a href="#/" data-icon="info">info</a>
+                <a href="#tabstrip-demo" data-icon="play">demo</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

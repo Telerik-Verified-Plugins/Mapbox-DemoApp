@@ -2,11 +2,11 @@
   "ProjectName": "Mapbox demo",
   "ProjectGuid": "ceb58fad-df16-4e77-b873-f78c9b2d194a",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.Mapboxdemo",
+  "AppIdentifier": "com.telerik.plugindemo.mapbox",
   "DisplayName": "Mapbox demo",
-  "Author": "",
+  "Author": "Telerik",
   "Description": "Mapbox demo",
-  "BundleVersion": "1.0",
+  "BundleVersion": "1.0.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
     "1",
@@ -14,7 +14,7 @@
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.7.0",
+  "FrameworkVersion": "4.0.0",
   "AndroidPermissions": [
     "android.permission.INTERNET"
   ],
@@ -22,7 +22,7 @@
     "Portrait",
     "Landscape"
   ],
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "True",
   "iOSStatusBarStyle": "Default",
   "Framework": "Cordova",
   "WP8TileTitle": "",
@@ -41,5 +41,11 @@
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "cordova-plugin-console",
+    "cordova-plugin-device",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar"
   ]
 }
