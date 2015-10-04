@@ -1,0 +1,45 @@
+{
+  "ProjectName": "Mapbox demo",
+  "ProjectGuid": "ceb58fad-df16-4e77-b873-f78c9b2d194a",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.Mapboxdemo",
+  "DisplayName": "Mapbox demo",
+  "Author": "",
+  "Description": "Mapbox demo",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{90d6fa2d-cd7e-4e90-8d45-5eeabf6e720e}",
+  "WP8ProductID": "{5168c5ed-ccbd-4cc2-a9d9-17a81435d30d}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.Mapboxdemo",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
