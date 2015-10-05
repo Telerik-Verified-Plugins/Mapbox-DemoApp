@@ -8,14 +8,14 @@
             if (!this.checkSimulator()) {
               	Mapbox.show(
                   {
-                    style: 'emerals',
+                    style: 'emerald', // light|dark|emerald|satellite|streets , default 'streets'
                     margins: {
-                      'left': 0,
-                      'right': 0,
-                      'top': 316,
-                      'bottom': 50
+                      left: 0, // default 0
+                      right: 0, // default 0
+                      top: 316, // default 0
+                      bottom: 50 // default 0
                     },
-                    center: {
+                    center: { // optional, without a default
                       lat: 52.3702160,
                       lng: 4.8951680
                     },
@@ -30,10 +30,10 @@
                     disablePitch: false, // default false
                     markers: [
                       {
-                        'lat': 52.3732160,
-                        'lng': 4.8941680,
-                        'title': 'Nice location',
-                        'subtitle': 'Really really nice location'
+                        lat: 52.3732160,
+                        lng: 4.8941680,
+                        title: 'Nice location',
+                        subtitle: 'Really really nice location'
                       }
                     ]
                   },
