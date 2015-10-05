@@ -8,7 +8,7 @@
             if (!this.checkSimulator()) {
               	Mapbox.show(
                   {
-                    style: 'emerald',
+                    style: 'emerals',
                     margins: {
                       'left': 0,
                       'right': 0,
