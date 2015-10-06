@@ -12,8 +12,9 @@
                     margins: {
                       left: 0, // default 0
                       right: 0, // default 0
-                      top: 316, // default 0
-                      bottom: 50 // default 0
+                      // our demo apps have a different layout for Android (tabs at the top)
+                      top: navigator.userAgent.indexOf("Android") == -1 ? 316 : 340, // default 0
+                      bottom: navigator.userAgent.indexOf("Android") == -1 ? 50 : 0 // default 0
                     },
                     center: { // optional, without a default
                       lat: 52.3702160,

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="$AndroidVersionCode$"
+          android:versionName="$BundleVersion$"
+          package="$AppIdentifier$"
+          android:windowSoftInputMode="adjustPan"
+          android:hardwareAccelerated="$AndroidHardwareAcceleration$"
+          xmlns:android="http://schemas.android.com/apk/res/android" >
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true"
+        android:resizeable="true"
+        android:anyDensity="true"
+        />
+
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/icon"
+                 android:hardwareAccelerated="$AndroidHardwareAcceleration$">
+        <activity android:label="@string/app_name"
+                  android:name=".TelerikCallbackActivity"
+                  android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+                  android:launchMode="singleTop"
+                  android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="21"/>
+</manifest>
