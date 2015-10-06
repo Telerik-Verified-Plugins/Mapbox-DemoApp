@@ -21,8 +21,8 @@
                     },
                     zoomLevel: 12, // 0 (the entire world) to 20, default 10
                     showUserLocation: true, // default false
-                    hideAttribution: true, // default false
-                    hideLogo: true, // default false
+                    hideAttribution: true, // default false, which is required by Mapbox if you're on a free plan
+                    hideLogo: true, // default false, which is required by Mapbox if you're on a free plan
                     hideCompass: false, // default false
                     disableRotation: false, // default false
                     disableScroll: false, // default false
