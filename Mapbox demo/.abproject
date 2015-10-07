@@ -44,8 +44,9 @@
   ],
   "CorePlugins": [
     "cordova-plugin-console",
+    "cordova-plugin-crosswalk-webview@1.2.0",
     "cordova-plugin-device",
-    "cordova-plugin-mapbox@1.0.0",
+    "cordova-plugin-mapbox@1.0.1",
     "cordova-plugin-splashscreen",
     "cordova-plugin-statusbar"
   ]
