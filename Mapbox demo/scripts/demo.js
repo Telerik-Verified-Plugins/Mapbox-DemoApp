@@ -38,7 +38,12 @@
                       }
                     ]
                   },
-                  this.onSuccess,
+                  function() {
+                    // let's add an click handler to the marker callouts
+                    Mapbox.addMarkerCallback(function (selectedMarker) {
+                      alert("Marker selected: " + JSON.stringify(selectedMarker));
+                    });
+                  },
                   this.onError
             )}
         },
