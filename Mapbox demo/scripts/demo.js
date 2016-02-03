@@ -8,7 +8,7 @@
             if (!this.checkSimulator()) {
               	Mapbox.show(
                   {
-                    style: 'emerald', // light|dark|emerald|satellite|streets , default 'streets'
+                    style: 'emerald', // light|dark|emerald|satellite|hybrid|streets , default 'streets'
                     margins: {
                       left: 0, // default 0
                       right: 0, // default 0

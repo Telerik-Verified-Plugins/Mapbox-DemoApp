@@ -6,7 +6,7 @@
   "DisplayName": "Mapbox demo",
   "Author": "Telerik",
   "Description": "Mapbox demo",
-  "BundleVersion": "1.0.0",
+  "BundleVersion": "1.0.1",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
     "1",
@@ -44,10 +44,13 @@
   ],
   "CorePlugins": [
     "cordova-plugin-console",
-    "cordova-plugin-crosswalk-webview@1.2.0",
     "cordova-plugin-device",
-    "cordova-plugin-mapbox@1.1.1",
+    "cordova-plugin-file",
+    "cordova-plugin-file-transfer",
+    "cordova-plugin-mapbox@1.2.0",
+    "cordova-plugin-network-information",
     "cordova-plugin-splashscreen",
-    "cordova-plugin-statusbar"
+    "cordova-plugin-statusbar",
+    "cordova-plugin-vibration"
   ]
 }
