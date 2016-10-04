@@ -47,7 +47,7 @@
     "cordova-plugin-device",
     "cordova-plugin-file",
     "cordova-plugin-file-transfer",
-    "cordova-plugin-mapbox@1.2.0",
+    "cordova-plugin-mapbox@1.2.1",
     "cordova-plugin-network-information",
     "cordova-plugin-splashscreen",
     "cordova-plugin-statusbar",
